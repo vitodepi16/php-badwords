@@ -17,12 +17,12 @@
 </head>
 <body>
     
-<h2>Paragrafo originale (<?php echo strlen($paragraph); ?> caratteri)</h2>
+<h2>Il tuo Testo originale  ha:(<?php echo strlen($paragraph); ?> caratteri)</h2>
 
 
-      <p><?php echo $paragraph ?></p>
+      <p>Il tuo Testo originale è: <small><?php echo $paragraph ?> </small> </p>
 
-      <p><?php echo $censuredParagraph ?></p>
+      <p> Il tuo Testo censurato è: <small><?php echo $censuredParagraph ?> </small> </p>
 </body>
 </html>
       
